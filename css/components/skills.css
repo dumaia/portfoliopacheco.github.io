@@ -1,0 +1,27 @@
+.results{
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top: 15rem;
+
+}
+
+.results .results__content {
+    padding: 6rem 4rem;
+    text-align: center;
+}
+
+.results__conteiner{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .results .results__conteiner {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .results .results__content {
+        max-width: 66rem;
+    }
+}
